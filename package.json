@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "emulator": "firebase emulators:start --project some-project",
+    "demo": "node ./demo"
+  },
+  "devDependencies": {
+    "firebase-tools": "^11.29.1"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.7.0"
+  }
+}
