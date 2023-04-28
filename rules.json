@@ -1,0 +1,13 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "vars": {
+      "$key": {
+        ".read": true,
+        ".write": "$key.matches(/^s/)",
+        ".validate": "newData.isString() && newData.val().length >= 3 && newData.val().length <= 30"
+      }
+    }
+  }
+}
